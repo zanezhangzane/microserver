@@ -4,7 +4,7 @@ spring:
     - dev
 ---
 server:
-  port: 1002
+  port: 1003
   context-path: /
   
 # 数据源配置
@@ -31,17 +31,17 @@ eureka:
     prefer-ip-address: true #显示IP
   client: 
     service-url: 
-      defaultZone: http://eureka2001.zane:2001/eureka/,http://eureka2002.zane:2002/eureka/,http://eureka2003.zane:2003/eureka/  #把服务注册到eureka注册中心
+      defaultZone: http://eureka2001.zane:2001/eureka/,http://eureka2002.zane:2002/eureka/,http://eureka2003.zane:2003/eureka/   #把服务注册到eureka注册中心
        
 info: 
    groupId: $project.groupId$
    artifactId: $project.artifactId$
    version: $project.version$
-   负责人: 李四
-   联系电话: 120
+   负责人: 王五
+   联系电话: 130
 ---
 server:
-  port: 1002
+  port: 1003
   context-path: /
   
 # 数据源配置
@@ -74,5 +74,5 @@ info:
    groupId: $project.groupId$
    artifactId: $project.artifactId$
    version: $project.version$
-   负责人: 李四
-   联系电话: 120
+   负责人: 王五
+   联系电话: 130
