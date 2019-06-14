@@ -27,7 +27,7 @@ eureka:
   instance:
     hostname: localhost  #eureka客户端主机实例名称
     appname: distribute-student  #客户端服务名
-    instance-id: distribute-student:1002 #客户端实例名称
+    instance-id: distribute-student:1003 #客户端实例名称
     prefer-ip-address: true #显示IP
   client: 
     service-url: 
@@ -64,7 +64,7 @@ eureka:
   instance:
     hostname: localhost  #eureka客户端主机实例名称
     appname: distribute-student  #客户端服务名
-    instance-id: distribute-student:1002 #客户端实例名称
+    instance-id: distribute-student:1003 #客户端实例名称
     prefer-ip-address: true #显示IP
   client: 
     service-url: 
