@@ -4,7 +4,7 @@ spring:
     - dev
 ---
 server:
-  port: 1001
+  port: 1002
   context-path: /
   
 # 数据源配置
@@ -27,7 +27,7 @@ eureka:
   instance:
     hostname: localhost  #eureka客户端主机实例名称
     appname: distribute-student  #客户端服务名
-    instance-id: distribute-student:1001 #客户端实例名称
+    instance-id: distribute-student:1002 #客户端实例名称
     prefer-ip-address: true #显示IP
   client: 
     service-url: 
@@ -37,11 +37,11 @@ info:
    groupId: $project.groupId$
    artifactId: $project.artifactId$
    version: $project.version$
-   负责人: 张三
-   联系电话: 110
+   负责人: 李四
+   联系电话: 120
 ---
 server:
-  port: 1004
+  port: 1002
   context-path: /
   
 # 数据源配置
@@ -64,7 +64,7 @@ eureka:
   instance:
     hostname: localhost  #eureka客户端主机实例名称
     appname: distribute-student  #客户端服务名
-    instance-id: distribute-student:1001 #客户端实例名称
+    instance-id: distribute-student:1002 #客户端实例名称
     prefer-ip-address: true #显示IP
   client: 
     service-url: 
@@ -74,5 +74,5 @@ info:
    groupId: $project.groupId$
    artifactId: $project.artifactId$
    version: $project.version$
-   负责人: 张三
-   联系电话: 110
+   负责人: 李四
+   联系电话: 120
